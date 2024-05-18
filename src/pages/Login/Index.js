@@ -1,9 +1,11 @@
 import React, { useState, useContext } from 'react';
-import { View, Text, StyleSheet, TextInput, TouchableOpacity } from 'react-native';
+import { StyleSheet } from 'react-native';
+import { View, Text, TextInput, TouchableOpacity } from 'react-native';
 import * as Animatable from 'react-native-animatable'
 import { AuthContext } from '../../contexts/auth'
 import { useNavigation } from '@react-navigation/native'
 import { handlerSigIn, data } from '../Cadastro';
+
 
 export default function Login() {
     const [email, setEmail] = useState('');
