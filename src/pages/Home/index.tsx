@@ -124,8 +124,8 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     borderRadius: 5,
-    marginTop: 30,
-    marginBottom: 80,
+    marginTop: 70,
+    marginBottom: 30,
   },
   buttonText: {
     color: "white",
